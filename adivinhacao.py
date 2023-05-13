@@ -2,6 +2,7 @@
 Projeto de jogo de adivinhação
 """
 
+
 print("*********************************")
 print("Bem vindo ao jogo de adivinhacao!")
 print("*********************************")
