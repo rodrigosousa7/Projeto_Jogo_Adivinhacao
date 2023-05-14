@@ -1,26 +1,32 @@
 """
 Projeto Sistema de Jogos
 """
+import forca
+import adivinhacao
 
-print("*********************************")
-print("*******Escolha o seu jogo!*******")
-print("*********************************")
+def escolhe_jogo():
+    print("***********************************")
+    print("******* Escolha o seu jogo! *******")
+    print("***********************************\n")
 
-print("(1) - FORCA")
-print()
+    print("(1) - FORCA\n\n(2) - ADIVINHACAO\n\n(3) - SAIR\n")
 
-print("(2) - ADIVINHACAO")
-print()
+    while True:
+        jogo = int(input("Qual jogo? "))
+        print()
 
-print("(3) - SAIR")
-print()
+        if jogo == 1:
+            print("Jogando FORCA\n")
+            forca.jogar()
+            break
+        if jogo == 2:
+            print("Jogando ADIVINHACAO\n")
+            adivinhacao.jogar()
+            break
+        if jogo == 3:
+            print("Você escolheu sair\n")
+            break
+        print("Opção inválida. Escolha 1, 2 ou 3.\n")
 
-JOGO = int(input("Qual jogo? "))
-
-if JOGO == 1:
-    print("Jogando FORCA")
-elif JOGO == 2:
-    print("Jogando ADIVINHACAO")
-else:
-    print("Você escolheu sair")
-    print()
+if __name__ == "__main__":
+    escolhe_jogo()
