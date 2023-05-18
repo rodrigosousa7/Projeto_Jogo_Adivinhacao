@@ -5,7 +5,10 @@ import forca
 import adivinhacao
 
 def escolhe_jogo():
-    print("***********************************")
+    """
+    Função para escolher o jogo
+    """
+    print("*"*35)
     print("******* Escolha o seu jogo! *******")
     print("***********************************\n")
 
