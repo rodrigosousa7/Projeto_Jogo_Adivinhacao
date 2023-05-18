@@ -24,7 +24,31 @@ Este é um simples sistema de jogos em Python. O usuário pode escolher entre do
 
 ### Forca
 
-Este jogo ainda está em desenvolvimento e não está disponível para jogar.
+# Jogo de Adivinhação de Frutas
+
+Este é um projeto de jogo de forca em Python, onde o jogador deve adivinhar uma palavra aleatória relacionada a frutas. A palavra secreta é escolhida aleatoriamente de uma lista de frutas, e o jogador deve tentar adivinhar corretamente as letras que compõem a palavra.
+
+## Funcionalidades
+
+- O jogo seleciona aleatoriamente uma palavra secreta relacionada a frutas.
+- O jogador pode fazer chutes de letras para tentar adivinhar a palavra secreta.
+- O jogo exibe a quantidade de letras faltantes para adivinhar.
+- O jogador recebe uma mensagem de acerto ou erro a cada chute realizado.
+- O jogo termina quando o jogador acerta todas as letras da palavra secreta ou excede o número máximo de tentativas.
+
+## Requisitos
+
+- Python 3.x
+
+## Como Jogar
+
+1. Clone este repositório em seu ambiente local.
+2. Certifique-se de ter o Python instalado em sua máquina.
+3. Execute o script `jogo_forca.py` no seu ambiente Python.
+4. Siga as instruções exibidas no console para fazer os chutes de letras e tentar adivinhar a palavra secreta relacionada a frutas.
+
+Divirta-se jogando a Adivinhação de Frutas!
+
 
 ## Contribuindo
 
