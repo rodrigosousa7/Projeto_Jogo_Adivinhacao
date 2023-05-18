@@ -5,9 +5,12 @@ Projeto de jogo de adivinhação
 import random
 
 def jogar():
-    print("*********************************")
+    """
+    Função para interligar o jogo de adivinhação com o módulo principal (jogos.py)
+    """
+    print("*"*33)
     print("Bem vindo ao jogo de ADIVINHAÇÃO!")
-    print("*********************************")
+    print("*"*33)
 
     numero_secreto = random.randrange(1, 101)
     total_de_tentativas = 0
